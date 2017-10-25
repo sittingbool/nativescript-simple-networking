@@ -2,3 +2,6 @@
 *.map
 index.*.d.ts
 node_modules
+
+.idea
+.idea/**

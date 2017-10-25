@@ -20,11 +20,11 @@
     "url": "https://honzamrazek.cz"
   },
   "bugs": {
-      "url": "https://github.com/yaqwsx/nativescript-simple-networking/issues"
+    "url": "https://github.com/yaqwsx/nativescript-simple-networking/issues"
   },
   "license": {
-      "type": "MIT",
-      "url": "https://github.com/yaqwsx/nativescript-simple-networking/blob/master/LICENSE"
+    "type": "MIT",
+    "url": "https://github.com/yaqwsx/nativescript-simple-networking/blob/master/LICENSE"
   },
   "homepage": "https://github.com/yaqwsx/nativescript-simple-networking",
   "readmeFilename": "README.md",
@@ -35,15 +35,19 @@
   },
   "nativescript": {
     "platforms": {
-      "android": "2.4.0"
+      "android": "2.4.0",
+      "ios": "2.4.0"
     }
   },
   "devDependencies": {
-    "typescript": "^2.2.1"
+    "tns-core-modules": "~3.2.0",
+    "tns-platform-declarations": "^3.2.0",
+    "typescript": "~2.2.1",
+    "prompt": "~1.0.0",
+    "rimraf": "~2.5.0"
   },
   "dependencies": {
     "ip-address": "^5.8.6",
-    "tns-platform-declarations": "^2.5.0",
     "util": "^0.10.3"
   }
 }

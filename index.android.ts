@@ -1,4 +1,4 @@
-/// <reference path="../tns-platform-declarations/android.d.ts" />
+/// <reference path="references.d.ts" />
 declare module cz {
     export module honzamrazek {
         export module simplenetworking {
@@ -117,7 +117,7 @@ export class UdpServer {
         return this.server.send(java.net.InetAddress.getByName(name), packet);
     }
 
-    public getNativeSocket(): java.net.DatagramSocket {
+    public getNativeSocket(): any {
         return this.server.getNativeSocket();
     }
 }
